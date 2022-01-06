@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*divs para todo o site*/
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+/******/ 
+
+header{
+	background-color: #D6D6D6;
+	padding: 10px 3% 30px 3%;
+}
+.logo-1{
+	float: left;
+	width: 160px;
+	height: 70px;
+	background-image: url(../imagens/logo1.png);
+	background-size: 100% auto;
+	/*background-size: 100% 100%;*/
+	background-repeat: no-repeat;
+	/*background-color: hotpink;*/
+}
+.logo-2{
+	float: right;
+	width: 160px;
+	height: 70px;
+	background-image: url(../imagens/logo2.png);
+	background-size: 100% auto;
+	/*background-size: 100% 100%;*/
+	background-repeat: no-repeat;
+	/*background-color: green;*/
+}
+section.cover-form{
+	width: 100%;
+	
+}
+.bg {
+	position: relative;
+	height: 490px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../imagens/bg-form.jpg');
+}
+.form-container{
+	position: absolute;
+	right: 30px;
+	width: 400px;
+	height: 110%;
+	top: -5%;
+	background-color: whitesmoke;
+	box-shadow: 22px 27px 31px 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 22px 27px 31px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 22px 27px 31px 1px rgba(0,0,0,0.75);
+}
+.form-container h2{
+	padding:20px 15px;
+	color: black;
+	background-color: rgb(234, 236, 239);
+	font-weight: normal;
+	font-size: 18px;
+}
+.form-container form{
+	margin-top: 10px;
+	padding: 18px;
+}
+.form-container form p{
+	font-size: 17px;
+	color: #525252;
+}
+.form-wraper:not(:first-child){
+	margin-top: 20px;
+}
+.form-container form input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 10px;
+}
+.form-container form input[type=submit]{
+	background-color: #033C50;
+	text-transform: uppercase;
+	color: white;
+	width: 100%;
+	font-size: 23px;
+	height: 55px;
+	cursor: pointer;
+	border: 0;
+}
+section.chamada{
+	/*z-index: 1;*/
+	width: 100%;
+	text-align: center;
+}
+.chamada .container{
+	padding: 70px 0 50px 0;
+	background-color: #7992bd;
+}
+.chamada h2{
+	width: 95%;
+	max-width: 700px;
+	display: inline-block;
+	color: white;
+	font-size: 33px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.chamada p{
+	width: 95%;
+	max-width: 500px;
+	display: inline-block;
+	margin-top: 6px;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+.flex-mosaico{
+	display: flex;
+}
+.item-mosaico1{
+	background-position: center;
+	background-size: cover;
+	width: 65%;
+	height: 300px;
+	margin-top: 3px;
+}
+.item-mosaico2{
+	background-color: #d3dff2;
+	padding: 90px 40px;
+	width: 35%;
+	margin-top: 3px;
+}
+.item-mosaico2 p{
+	color: #1a1e26;
+	text-align: center;
+	font-size: 17px;
+}
+.rodape .container{
+	padding: 70px 0 50px 0;
+	background-color: #D6D6D6;
+}
+.rodape .container h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 21px;
+	padding: 10px 0
+}
+.rodape .container p{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+	
+.rodape .rodape-img p{
+	text-align: center;
+	font-size: 15px;
+	margin: 10px 0;
+	font-weight: normal;
+}
+.rodape .rodape-img img{
+	width: 110px;
+	margin-left: 45%;
+}
+
+@media screen and (max-width: 768px){
+	.flex-mosaico{
+		display: block;
+	}
+	.item-mosaico1{
+		padding-top: 80%;
+		width: 100%;
+	}
+	.item-mosaico2{
+		width: 100%;
+		text-align: justify;
+	}
+}
+@media screen and (max-width: 900px){
+	.bg{
+		text-align: center;
+		padding: 40px 0;
+		height: auto;
+
+	}
+	.form-container{
+		height: auto;
+		width: 96%;
+		max-width: 400px;
+		position: static;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 600px){
+	header{
+		text-align: center;
+	}
+	.logo-1,.logo-2{
+		margin-top: 10px;
+		display: inline-block;
+		float: none;
+	}
+
+	/* ^= tudo que começa com 'logo' atribua:;
+	[class^="logo"]{
+	margin-top: 10px;
+		display: inline-block;
+		float: none;
+	}*/
+}
+
