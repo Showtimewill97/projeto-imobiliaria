@@ -3,7 +3,7 @@ Uma landing page sobre uma imobiliária. totalmente responsiva e interativa.</br
 
 ### 🛠 Tecnologias Utilizadas
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção deste projeto:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://www.w3schools.com/cssref/)
@@ -17,5 +17,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Wilgner Souza</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Danki Code">💻</a>
 
-Feito com ❤️ por Wilgner Souza 👋🏽 Entre em contato!
+Feito com ❤️ por Wilgner Souza 👋🏽 </br>Entre em contato!
 
