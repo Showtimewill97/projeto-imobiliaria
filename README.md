@@ -1,6 +1,8 @@
 # projeto-imobiliaria
 Uma landing page sobre uma imobiliária. totalmente responsiva e interativa.</br>
-
+<h4 align="center">
+:heavy_check_mark: Projeto concluído :heavy_check_mark:
+ </h4>
 ### 🛠 Tecnologias Utilizadas
 
 As seguintes ferramentas foram usadas na construção deste projeto:
