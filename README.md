@@ -1,4 +1,3 @@
-<div align="center">
 # projeto-imobiliaria
 Uma landing page sobre uma imobiliária. totalmente responsiva e interativa.</br>
 <h4>
@@ -21,4 +20,4 @@ As seguintes ferramentas foram usadas na construção deste projeto:
  <sub><b>Wilgner Souza</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Danki Code">💻</a>
 
 Feito com ❤️ por Wilgner Souza 👋🏽 </br>Entre em contato!
-</div>
+
